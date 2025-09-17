@@ -713,7 +713,6 @@ background: #e0af68;
 
 
 /* Icon src */
-/* Icon src - Web URLs */
 @font-face {
 	font-family: 'icomoon';
 	src:url('fonts/icomoon.eot?dwnubt');
@@ -724,344 +723,125 @@ background: #e0af68;
 	font-weight: normal;
 	font-style: normal;
 }
-/* Варіант 2: Feather Icons (CDN) */
-/*@import url('https://cdn.jsdelivr.net/npm/feather-icons@4.29.0/dist/feather.min.css');
 
-/* Варіант 3: Boxicons (CDN) */
-/*@import url('https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css');
+[class^="icon-"], [class*=" icon-"] {font-family: 'icomoon';speak: none;font-style: normal;font-weight: normal;font-variant: normal;text-transform: none;line-height: 1;
 
-/* Маппінг ваших класів на Font Awesome іконки */
-.icon-plus-square-o {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 400;
-}
+	/* Better Font Rendering =========== */-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+
 .icon-plus-square-o:before {
 	content: "\e600";
-    content: "\f0fe"; /* fa-plus-square */
-}
-
-.icon-home2 {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
 }
 .icon-home2:before {
 	content: "\e901";
-    content: "\f015"; /* fa-home */
-}
-
-.icon-pencil {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
 }
 .icon-pencil:before {
 	content: "\e905";
-    content: "\f303"; /* fa-pencil */
-}
-
-.icon-podcast {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
 }
 .icon-podcast:before {
 	content: "\e91c";
-    content: "\f2ce"; /* fa-podcast */
-}
-
-.icon-copy {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 400;
 }
 .icon-copy:before {
 	content: "\e92c";
-    content: "\f0c5"; /* fa-copy */
-}
-
-.icon-folder-open {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 400;
 }
 .icon-folder-open:before {
 	content: "\e930";
-    content: "\f07c"; /* fa-folder-open */
-}
-
-.icon-phone {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
 }
 .icon-phone:before {
 	content: "\e942";
-    content: "\f095"; /* fa-phone */
-}
-
-.icon-history {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
 }
 .icon-history:before {
 	content: "\e94d";
-    content: "\f1da"; /* fa-history */
-}
-
-.icon-calendar {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 400;
 }
 .icon-calendar:before {
 	content: "\e953";
-    content: "\f133"; /* fa-calendar */
-}
-
-.icon-printer {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
 }
 .icon-printer:before {
 	content: "\e954";
-    content: "\f02f"; /* fa-print */
-}
-
-.icon-mobile {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
 }
 .icon-mobile:before {
 	content: "\e958";
-    content: "\f3ce"; /* fa-mobile-alt */
-}
-
-.icon-floppy-disk {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 400;
 }
 .icon-floppy-disk:before {
 	content: "\e962";
-    content: "\f0c7"; /* fa-save */
-}
-
-.icon-bubble2 {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 400;
 }
 .icon-bubble2:before {
 	content: "\e96e";
-    content: "\f075"; /* fa-comment */
-}
-
-.icon-search {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
 }
 .icon-search:before {
 	content: "\e986";
-    content: "\f002"; /* fa-search */
-}
-
-.icon-wrench {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
 }
 .icon-wrench:before {
 	content: "\e991";
-    content: "\f0ad"; /* fa-wrench */
-}
-
-.icon-cog {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
 }
 .icon-cog:before {
 	content: "\e994";
-    content: "\f013"; /* fa-cog */
-}
-
-.icon-cogs {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
 }
 .icon-cogs:before {
 	content: "\e995";
-    content: "\f085"; /* fa-cogs */
-}
-
-.icon-stats-bars {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
 }
 .icon-stats-bars:before {
 	content: "\e99c";
-    content: "\f080"; /* fa-bar-chart */
 }
 .icon-bin:before {
 	content: "\e9ac";
-
-.icon-bin, .icon-bin-all {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
-}
-.icon-bin:before, .icon-bin-all:before {
-    content: "\f2ed"; /* fa-trash-alt */
 }
 .icon-bin-all:before {
 	content: "\e9ac";
-
+}
 .icon-power:before {
 	content: "\e9b5";
 }
-
-.icon-clipboard {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 400;
-}
 .icon-clipboard:before {
 	content: "\e9b8";
-    content: "\f328"; /* fa-clipboard */
-}
-
-.icon-download3 {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
 }
 .icon-download3:before {
 	content: "\e9c7";
-    content: "\f019"; /* fa-download */
-}
-
-.icon-warning {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
 }
 .icon-warning:before {
 	content: "\ea07";
-    content: "\f071"; /* fa-exclamation-triangle */
-}
-
-.icon-question {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 400;
 }
 .icon-question:before {
 	content: "\ea09";
-    content: "\f059"; /* fa-question-circle */
 }
-	
 .icon-info:before {
 	content: "\ea0c";
 }
-
-.icon-cancel-circle {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 400;
-}
 .icon-cancel-circle:before {
 	content: "\ea0d";
-    content: "\f057"; /* fa-times-circle */
-}
-
-.icon-blocked {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
 }
 .icon-blocked:before {
 	content: "\ea0e";
-    content: "\f05e"; /* fa-ban */
-}
-
-.icon-cross {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
 }
 .icon-cross:before {
 	content: "\ea0f";
-    content: "\f00d"; /* fa-times */
-}
-
-.icon-checkmark {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
 }
 .icon-checkmark:before {
 	content: "\ea10";
-    content: "\f00c"; /* fa-check */
-}
-
-.icon-enter {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
 }
 .icon-enter:before {
 	content: "\ea13";
-    content: "\f090"; /* fa-sign-in-alt */
-}
-
-.icon-volume-medium {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
 }
 .icon-volume-medium:before {
 	content: "\ea27";
-    content: "\f027"; /* fa-volume-up */
-}
-
-.icon-loop2 {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
 }
 .icon-loop2:before {
 	content: "\ea2e";
-    content: "\f01e"; /* fa-repeat */
-}
-
-.icon-arrow-right {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
 }
 .icon-arrow-right:before {
 	content: "\ea34";
-    content: "\f061"; /* fa-arrow-right */
-}
-
-.icon-arrow-left {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
 }
 .icon-arrow-left:before {
 	content: "\ea38";
-    content: "\f060"; /* fa-arrow-left */
-}
-
-.icon-share {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
 }
 .icon-share:before {
 	content: "\ea7d";
-    content: "\f064"; /* fa-share */
-}
-
-.icon-feed3 {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
 }
 .icon-feed3:before {
 	content: "\ea95";
-    content: "\f09e"; /* fa-rss */
-}
-
-.icon-file-excel {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 400;
 }
 .icon-file-excel:before {
 	content: "\eadd";
-    content: "\f1c3"; /* fa-file-excel */
-}
-
-.icon-libreoffice {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 400;
 }
 .icon-libreoffice:before {
 	content: "\eade";
-    content: "\f1c2"; /* fa-file-word */
 }
