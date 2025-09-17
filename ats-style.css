@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+/* Font Awesome Icons (готовий набір іконок з CDN) */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
 
 @font-face {
 font-family: 'unbounded';
@@ -713,8 +715,7 @@ background: #e0af68;
 
 
 /* Icon src */
-/* Font Awesome Icons (готовий набір іконок з CDN) */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
 
 /* Мапінг ваших класів на Font Awesome іконки */
 [class^="icon-"], [class*=" icon-"] {
@@ -843,15 +844,3 @@ background: #e0af68;
 	content: "\f1c2"; /* fa-file-text */
 }
 
-[class^="icon-"], [class*=" icon-"] {
-	font-family: 'icomoon';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
