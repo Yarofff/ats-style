@@ -944,14 +944,9 @@ background: #e0af68;
 	content: "\ea09";
     content: "\f059"; /* fa-question-circle */
 }
-
-.icon-info {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
-}
+	
 .icon-info:before {
 	content: "\ea0c";
-    content: "\f05a"; /* fa-info-circle */
 }
 
 .icon-cancel-circle {
