@@ -713,28 +713,26 @@ p.pcap11 {
 
 
 /* Icon src */
-@import url('https://cdn.jsdelivr.net/npm/feather-icons@4.29.0/dist/feather.min.css');
-
+/* Icon src - Web URLs */
 @font-face {
 	font-family: 'icomoon';
-	src: url('https://cdn.jsdelivr.net/gh/IcoMoon/IcoMoon-Free@master/Font/icomoon.eot?dwnubt');
-	src: url('https://cdn.jsdelivr.net/gh/IcoMoon/IcoMoon-Free@master/Font/icomoon.eot?#iefixdwnubt') format('embedded-opentype'),
-		url('https://cdn.jsdelivr.net/gh/IcoMoon/IcoMoon-Free@master/Font/icomoon.ttf?dwnubt') format('truetype'),
-		url('https://cdn.jsdelivr.net/gh/IcoMoon/IcoMoon-Free@master/Font/icomoon.woff?dwnubt') format('woff'),
-		url('https://cdn.jsdelivr.net/gh/IcoMoon/IcoMoon-Free@master/Font/icomoon.svg?dwnubt#icomoon') format('svg');
+	src: url('https://your-domain.com/fonts/icomoon.eot?dwnubt');
+	src: url('https://your-domain.com/fonts/icomoon.eot?#iefixdwnubt') format('embedded-opentype'),
+		url('https://your-domain.com/fonts/icomoon.ttf?dwnubt') format('truetype'),
+		url('https://your-domain.com/fonts/icomoon.woff?dwnubt') format('woff'),
+		url('https://your-domain.com/fonts/icomoon.svg?dwnubt#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-font-family: 'icomoon';	
+	font-family: 'icomoon';	
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
 	text-transform: none;
 	line-height: 1;
-
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
