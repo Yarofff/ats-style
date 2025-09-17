@@ -921,6 +921,7 @@ background: #e0af68;
 	content: "\e9ac";
 
 .icon-power {
+	font-family: "Font Awesome 6 Free";
     font-weight: 900;
 }
 .icon-power:before {
