@@ -715,18 +715,27 @@ background: #e0af68;
 /* Icon src */
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?dwnubt');
-	src:url('fonts/icomoon.eot?#iefixdwnubt') format('embedded-opentype'),
-		url('fonts/icomoon.ttf?dwnubt') format('truetype'),
-		url('fonts/icomoon.woff?dwnubt') format('woff'),
-		url('fonts/icomoon.svg?dwnubt#icomoon') format('svg');
+	src: url('https://cdnjs.cloudflare.com/ajax/libs/icomoon/1.0.0/fonts/icomoon.eot');
+	src: url('https://cdnjs.cloudflare.com/ajax/libs/icomoon/1.0.0/fonts/icomoon.eot#iefix') format('embedded-opentype'),
+		 url('https://cdnjs.cloudflare.com/ajax/libs/icomoon/1.0.0/fonts/icomoon.ttf') format('truetype'),
+		 url('https://cdnjs.cloudflare.com/ajax/libs/icomoon/1.0.0/fonts/icomoon.woff') format('woff'),
+		 url('https://cdnjs.cloudflare.com/ajax/libs/icomoon/1.0.0/fonts/icomoon.svg#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {font-family: 'icomoon';speak: none;font-style: normal;font-weight: normal;font-variant: normal;text-transform: none;line-height: 1;
-
-	/* Better Font Rendering =========== */-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
 
 .icon-plus-square-o:before {
 	content: "\e600";
