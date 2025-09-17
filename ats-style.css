@@ -713,13 +713,14 @@ p.pcap11 {
 
 
 /* Icon src */
+/* Icon src */
 @font-face {
 	font-family: 'icomoon';
-	src: url('https://cdnjs.cloudflare.com/ajax/libs/icomoon/1.0.0/fonts/icomoon.eot?dwnubt');
-	src: url('https://cdnjs.cloudflare.com/ajax/libs/icomoon/1.0.0/fonts/icomoon.eot?#iefixdwnubt') format('embedded-opentype'),
-		url('https://cdnjs.cloudflare.com/ajax/libs/icomoon/1.0.0/fonts/icomoon.ttf?dwnubt') format('truetype'),
-		url('https://cdnjs.cloudflare.com/ajax/libs/icomoon/1.0.0/fonts/icomoon.woff?dwnubt') format('woff'),
-		url('https://cdnjs.cloudflare.com/ajax/libs/icomoon/1.0.0/fonts/icomoon.svg?dwnubt#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?dwnubt');
+	src:url('fonts/icomoon.eot?#iefixdwnubt') format('embedded-opentype'),
+		url('fonts/icomoon.ttf?dwnubt') format('truetype'),
+		url('fonts/icomoon.woff?dwnubt') format('woff'),
+		url('fonts/icomoon.svg?dwnubt#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
