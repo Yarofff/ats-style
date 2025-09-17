@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+@import url('https://img.icons8.com/?size=100&id=e7hTB8DPcGtB&format=png&color=000000');
 
 @font-face {
 	font-family: 'unbounded';
@@ -876,8 +877,7 @@ p.pcap11 {
 }
 
 .icon-power {
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
+	src: url('https://img.icons8.com/?size=100&id=e7hTB8DPcGtB&format=png&color=000000');
 }
 .icon-power:before {
     content: "\f011"; /* fa-power-off */
