@@ -716,28 +716,13 @@ background: #e0af68;
 /* Icon src - Web URLs */
 @font-face {
 	font-family: 'icomoon';
-	src: url('https://your-domain.com/fonts/icomoon.eot?dwnubt');
-	src: url('https://your-domain.com/fonts/icomoon.eot?#iefixdwnubt') format('embedded-opentype'),
-		url('https://your-domain.com/fonts/icomoon.ttf?dwnubt') format('truetype'),
-		url('https://your-domain.com/fonts/icomoon.woff?dwnubt') format('woff'),
-		url('https://your-domain.com/fonts/icomoon.svg?dwnubt#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?dwnubt');
+	src:url('fonts/icomoon.eot?#iefixdwnubt') format('embedded-opentype'),
+		url('fonts/icomoon.ttf?dwnubt') format('truetype'),
+		url('fonts/icomoon.woff?dwnubt') format('woff'),
+		url('fonts/icomoon.svg?dwnubt#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
-}
-/* Варіант 1: Font Awesome (CDN) */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
-
-[class^="icon-"], [class*=" icon-"] {
-	font-family: 'icomoon';	
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 }
 /* Варіант 2: Feather Icons (CDN) */
 /*@import url('https://cdn.jsdelivr.net/npm/feather-icons@4.29.0/dist/feather.min.css');
@@ -920,13 +905,8 @@ background: #e0af68;
 .icon-bin-all:before {
 	content: "\e9ac";
 
-.icon-power {
-	font-family: "Font Awesome 6 Free";
-    font-weight: 900;
-}
 .icon-power:before {
 	content: "\e9b5";
-    content: "\f011"; /* fa-power-off */
 }
 
 .icon-clipboard {
@@ -1089,15 +1069,4 @@ background: #e0af68;
 .icon-libreoffice:before {
 	content: "\eade";
     content: "\f1c2"; /* fa-file-word */
-}
-
-/* Базові стилі для всіх іконок */
-[class^="icon-"], [class*=" icon-"] {
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
