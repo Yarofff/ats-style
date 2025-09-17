@@ -713,14 +713,15 @@ p.pcap11 {
 
 
 /* Icon src */
-/* Icon src */
+@import url('https://cdn.jsdelivr.net/npm/feather-icons@4.29.0/dist/feather.min.css');
+
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?dwnubt');
-	src:url('fonts/icomoon.eot?#iefixdwnubt') format('embedded-opentype'),
-		url('fonts/icomoon.ttf?dwnubt') format('truetype'),
-		url('fonts/icomoon.woff?dwnubt') format('woff'),
-		url('fonts/icomoon.svg?dwnubt#icomoon') format('svg');
+	src: url('https://cdn.jsdelivr.net/gh/IcoMoon/IcoMoon-Free@master/Font/icomoon.eot?dwnubt');
+	src: url('https://cdn.jsdelivr.net/gh/IcoMoon/IcoMoon-Free@master/Font/icomoon.eot?#iefixdwnubt') format('embedded-opentype'),
+		url('https://cdn.jsdelivr.net/gh/IcoMoon/IcoMoon-Free@master/Font/icomoon.ttf?dwnubt') format('truetype'),
+		url('https://cdn.jsdelivr.net/gh/IcoMoon/IcoMoon-Free@master/Font/icomoon.woff?dwnubt') format('woff'),
+		url('https://cdn.jsdelivr.net/gh/IcoMoon/IcoMoon-Free@master/Font/icomoon.svg?dwnubt#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
