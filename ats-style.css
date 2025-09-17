@@ -715,11 +715,11 @@ p.pcap11 {
 /* Icon src */
 @font-face {
 	font-family: 'icomoon';
-	src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/webfonts/fa-solid-900.eot');
-	src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/webfonts/fa-solid-900.eot?#iefix') format('embedded-opentype'),
-		url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/webfonts/fa-solid-900.ttf') format('truetype'),
-		url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/webfonts/fa-solid-900.woff') format('woff'),
-		url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/webfonts/fa-solid-900.svg#icomoon') format('svg');
+	src: url('https://cdnjs.cloudflare.com/ajax/libs/icomoon/1.0.0/fonts/icomoon.eot?dwnubt');
+	src: url('https://cdnjs.cloudflare.com/ajax/libs/icomoon/1.0.0/fonts/icomoon.eot?#iefixdwnubt') format('embedded-opentype'),
+		url('https://cdnjs.cloudflare.com/ajax/libs/icomoon/1.0.0/fonts/icomoon.ttf?dwnubt') format('truetype'),
+		url('https://cdnjs.cloudflare.com/ajax/libs/icomoon/1.0.0/fonts/icomoon.woff?dwnubt') format('woff'),
+		url('https://cdnjs.cloudflare.com/ajax/libs/icomoon/1.0.0/fonts/icomoon.svg?dwnubt#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
